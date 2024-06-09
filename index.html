@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Movie Recommendation App</h1>
+    </header>
+    <main>
+        <form id="movieForm">
+            <label for="genre">Choose a genre:</label>
+            <select id="genre" name="genre">
+                <option value="action">Action</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+                <option value="horror">Horror</option>
+                <option value="romance">Romance</option>
+            </select>
+            <button type="submit">Get Recommendations</button>
+        </form>
+        <section id="movieResults"></section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
